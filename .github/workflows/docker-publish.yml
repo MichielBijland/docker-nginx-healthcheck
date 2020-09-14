@@ -15,5 +15,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: michielbijland/docker-nginx-healthchek/docker-nginx-healthcheck
+          repository: michielbijland/docker-nginx-healthcheck/docker-nginx-healthcheck
           tag_with_ref: true
