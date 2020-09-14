@@ -13,7 +13,7 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          registry: docker.pkg.github.com
-          repository: michielbijland/docker-nginx-healthcheck/docker-nginx-healthcheck
+          password: ${{ secrets.CR_PAT }}
+          registry: ghcr.io
+          repository: michielbijland/docker-nginx-healthcheck
           tag_with_ref: true
